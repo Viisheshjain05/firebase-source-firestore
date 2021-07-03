@@ -1,1 +1,113 @@
-// no-op-lo-op
+const sourceNodes = {
+    traceId: 'initial-sourceNodes',
+    waitForCascadingActions: true,
+    deferNodeMutation: true,
+    parentSpan: 'Span {}',
+    webhookBody: {},
+    pluginName: undefined,
+    basePath: '',
+    pathPrefix: '',
+  
+    actions: {
+      deletePage: '[Function (anonymous)]',
+      createPage: '[Function (anonymous)]',
+      deleteNode: '[Function (anonymous)]',
+      createNode: '[Function (anonymous)]',
+      touchNode: '[Function (anonymous)]',
+      createNodeField: '[Function (anonymous)]',
+      createParentChildLink: '[Function (anonymous)]',
+      setWebpackConfig: '[Function (anonymous)]',
+      replaceWebpackConfig: '[Function (anonymous)]',
+      setBabelOptions: '[Function (anonymous)]',
+      setBabelPlugin: '[Function (anonymous)]',
+      setBabelPreset: '[Function (anonymous)]',
+      createJob: '[Function (anonymous)]',
+      createJobV2: '[Function (anonymous)]',
+      setJob: '[Function (anonymous)]',
+      endJob: '[Function (anonymous)]',
+      setPluginStatus: '[Function (anonymous)]',
+      createRedirect: '[Function (anonymous)]',
+      createPageDependency: '[Function (anonymous)]',
+      createServerVisitedPage: '[Function (anonymous)]',
+      unstable_createNodeManifest: '[Function (anonymous)]',
+      createFieldExtension: '[Function (anonymous)]',
+      createTypes: '[Function (anonymous)]',
+      createResolverContext: '[Function (anonymous)]',
+      addThirdPartySchema: '[Function (anonymous)]',
+      printTypeDefinitions: '[Function (anonymous)]',
+    },
+   
+    loadNodeContent: '[AsyncFunction: loadNodeContent]',
+   
+    store: {
+      dispatch: '[Function (anonymous)]',
+      subscribe: '[Function: subscribe]',
+      getState: '[Function: getState]',
+      replaceReducer: '[Function: replaceReducer]',
+      '@@observable': '[Function: observable]',
+    },
+   
+    emitter: {
+      on: '[Function: on]',
+      off: '[Function: off]',
+      emit: '[Function: emit]',
+    },
+   
+    getCache: '[Function: getCache]',
+    getNodes: '[Function: getNodes]',
+    getNode: '[Function: getNode]',
+    getNodesByType: '[Function: getNodesByType]',
+   
+    reporter: {
+      stripIndent: '[Function (anonymous)]',
+      format: [Chalk],
+      errorMap: [Object],
+      setErrorMap: '[Function: setErrorMap]',
+      setVerbose: '[Function (anonymous)]',
+      setNoColor: '[Function (anonymous)]',
+      panic: '[Function: panic]',
+      panicOnBuild: '[Function: panicOnBuild]',
+      error: '[Function: error]',
+      uptime: '[Function (anonymous)]',
+      verbose: '[Function (anonymous)]',
+      success: '[Function (anonymous)]',
+      info: '[Function (anonymous)]',
+      warn: '[Function (anonymous)]',
+      log: '[Function (anonymous)]',
+      pendingActivity: '[Function (anonymous)]',
+      completeActivity: '[Function (anonymous)]',
+      activityTimer: '[Function: activityTimer]',
+      phantomActivity: '[Function (anonymous)]',
+      createProgress: '[Function: createProgress]',
+      _setStage: '[Function (anonymous)]',
+    },
+  
+    getNodeAndSavePathDependency: '[Function: getNodeAndSavePathDependency]',
+  
+    cache: (GatsbyCache = {
+      name: 'gatsby-source-firestore',
+      store: [Object],
+      directory:
+        'C:\\Users\\VIISHESH\\Desktop\\Gatsby Projects\\gatsby-firebase-bookstore\\.cache\\caches\\gatsby-source-firestore',
+      cache: [Object],
+    }),
+  
+    createNodeId: '[Function: namespacedCreateNodeId]',
+  
+    createContentDigest: '[Function: createContentDigest]',
+  
+    tracing: {
+      tracer: 'GlobalTracerDelegate {}',
+      parentSpan: 'Span {}',
+      startSpan: '[Function: startSpan]',
+    },
+
+    schema: {
+      buildObjectType: '[Function: buildObjectType]',
+      buildUnionType: '[Function: buildUnionType]',
+      buildInterfaceType: '[Function: buildInterfaceType]',
+      buildInputObjectType: '[Function: buildInputObjectType]',
+      buildEnumType: '[Function: buildEnumType]',
+      buildScalarType: '[Function: buildScalarType]',
+    },
+  },
